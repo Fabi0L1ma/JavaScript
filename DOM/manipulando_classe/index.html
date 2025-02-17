@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function aplicarClasse()
+        {
+            document.getElementById('menssagem').className = 'estilo2'
+        }
+
+    </script>
+
+    <style>
+        .estilo1{
+            background-color: red;
+            color: white;
+        }
+
+        .estilo2{
+            background-color: blue;
+            color: white;
+            padding: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="menssagem" class="estilo1">
+        Olá, tudo bem?
+    </div>
+
+    <button onclick="aplicarClasse()">Aplicar Classe</button>
+
+</body>
+
+</html>
